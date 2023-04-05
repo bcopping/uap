@@ -1,0 +1,13 @@
+import Layout from "@/components/Layout";
+import Context from "@/context/context";
+import "@/styles/globals.css";
+
+export default function App({ Component, pageProps }) {
+  return (
+    <Layout>
+      <Context>
+        <Component {...pageProps} />
+      </Context>
+    </Layout>
+  );
+}
