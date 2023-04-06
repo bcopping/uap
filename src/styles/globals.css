@@ -52,7 +52,7 @@
     }
   
 
-  label, legend {@apply font-heading block text-xs font-semibold;}
+  label, legend {@apply font-heading block text-xs}
 
   
   
